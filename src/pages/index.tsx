@@ -1,9 +1,9 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import HeaderMenu from "../components/HeaderMenu/HeaderMenu";
-import imagem1 from "./../css/themes/default/assets/images/3poltronas.jpg";
-import imagem2 from "./../css/themes/default/assets/images/espera.jpg";
-import imagem3 from "./../css/themes/default/assets/images/prorim.jpg";
+import imagem1 from "./../css/themes/default/assets/images/3poltronas.webp";
+import imagem2 from "./../css/themes/default/assets/images/espera.webp";
+import imagem3 from "./../css/themes/default/assets/images/prorim.webp";
 
 import { withLayout, LayoutProps, menuItems } from "../components/Layout";
 import {
