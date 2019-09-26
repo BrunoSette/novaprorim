@@ -6,14 +6,7 @@ import imagem2 from "./../css/themes/default/assets/images/espera.webp";
 import imagem3 from "./../css/themes/default/assets/images/prorim.webp";
 
 import { withLayout, LayoutProps, menuItems } from "../components/Layout";
-import {
-  Button,
-  Segment,
-  Container,
-  Grid,
-  Header,
-  Icon
-} from "semantic-ui-react";
+import { Button, Segment, Container, Grid, Header } from "semantic-ui-react";
 
 const IndexPage = (props: LayoutProps) => (
   <div>
@@ -33,7 +26,7 @@ const IndexPage = (props: LayoutProps) => (
           <Header inverted as="h2">
             Hemodiálise Com Mais Conforto e Eficiência
           </Header>
-          <Button primary size="huge">
+          <Button primary size="huge" href="tel:+558132041900">
             Fale conosco
           </Button>
         </Container>

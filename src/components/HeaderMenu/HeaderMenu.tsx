@@ -13,7 +13,7 @@ export const HeaderMenu = ({ inverted }) => (
       <Link className="link" to="#convenios">
         Convênios
       </Link>
-      <Link className="link" to="#fale">
+      <Link className="link" to="#ondeestamos">
         Fale Conosco
       </Link>
     </Menu>
