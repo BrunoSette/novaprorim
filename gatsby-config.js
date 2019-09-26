@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `My website`,
+    title: `Prorim Serviços Médicos Nefrológicos`,
     googleVerification: `abcdefz`,
     disqus: `gatsby-typescript`
   },
   mapping: {
-    'MarkdownRemark.frontmatter.author': `AuthorJson`
+    "MarkdownRemark.frontmatter.author": `AuthorJson`
   },
   plugins: [
     // Expose `/data` to graphQL layer
@@ -20,7 +20,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'YOUR_GOOGLE_ANALYTICS_TRACKING_ID',
+        trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
         // Puts tracking script in the head instead of the body
         head: false,
         // Setting this parameter is optional
@@ -66,12 +66,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby website`,
-        short_name: `Gatsby website`,
+        name: `Prorim Serviços Médicos Nefrológicos`,
+        short_name: `Prorim`,
         start_url: `/`,
         background_color: `#f7f7f7`,
         theme_color: `#191919`,
-        display: `minimal-ui`
+        display: `minimal-ui`,
+        icon: `src/css/themes/default/assets/images/favicon.png`
       }
     },
     /* eslint-enable camelcase */
